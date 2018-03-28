@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" 
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
           "http://www.springframework.org/dtd/spring-beans.dtd">
 <beans>
-
 
 	<bean id="mainFrame" class="todo.ui.MainFrame" init-method="init">
 		<property name="contentPane">
@@ -50,9 +49,9 @@
 	<bean id="itemList" class="java.util.ArrayList">
 		<constructor-arg>
 			<list>
-				<value>Item 111</value>
-				<value>Item 222</value>
-				<value>Item 333</value>
+				<value>Item 1112222</value>
+				<value>Item 22233333333333333333333333333333333333333</value>
+				<value>Item 133</value>
 			</list>
 		</constructor-arg>
 	</bean>
