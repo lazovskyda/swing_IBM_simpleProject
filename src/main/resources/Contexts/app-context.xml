@@ -2,6 +2,7 @@
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
           "http://www.springframework.org/dtd/spring-beans.dtd">
 <beans>
+	<import resource="all_context.xml"/>
 
 	<bean id="mainFrame" class="todo.ui.MainFrame" init-method="init">
 		<property name="contentPane">
@@ -50,7 +51,7 @@
 		<constructor-arg>
 			<list>
 				<value>Item 1112222</value>
-				<value>Item 22233333333333333333333333333333333333333</value>
+				<value>Item 222333</value>
 				<value>Item 133</value>
 			</list>
 		</constructor-arg>

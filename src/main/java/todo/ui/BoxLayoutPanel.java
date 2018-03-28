@@ -1,5 +1,7 @@
 package todo.ui;
 
+import org.springframework.context.annotation.Configuration;
+
 import java.awt.Component;
 import java.util.Iterator;
 import java.util.List;
@@ -7,6 +9,7 @@ import java.util.List;
 import javax.swing.BoxLayout;
 import javax.swing.JPanel;
 
+@Configuration
 public class BoxLayoutPanel extends JPanel {
 	/**
 	 * We can't use "components" as the property name, because it conflicts with
