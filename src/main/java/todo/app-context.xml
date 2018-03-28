@@ -50,8 +50,8 @@
 	<bean id="itemList" class="java.util.ArrayList">
 		<constructor-arg>
 			<list>
-				<value>Item 111</value>
-				<value>Item 222</value>
+				<value>Item 1112222</value>
+				<value>Item 22233333333333333333333333333333333333333</value>
 				<value>Item 333</value>
 			</list>
 		</constructor-arg>
