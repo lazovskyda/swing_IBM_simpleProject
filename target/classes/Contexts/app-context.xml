@@ -27,11 +27,11 @@
 	<!--</bean>-->
 
 
-	<bean id="itemScrollPane" class="javax.swing.JScrollPane">
-		<constructor-arg>
-			<ref bean="itemTable" />
-		</constructor-arg>
-	</bean>
+	<!--<bean id="itemScrollPane" class="javax.swing.JScrollPane">-->
+		<!--<constructor-arg>-->
+			<!--<ref bean="itemTable" />-->
+		<!--</constructor-arg>-->
+	<!--</bean>-->
 
 	<bean id="itemTable" class="javax.swing.JTable">
 		<property name="model">
