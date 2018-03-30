@@ -4,27 +4,27 @@
 <beans>
 	<import resource="all_context.xml"/>
 
-	<bean id="mainFrame" class="todo.ui.MainFrame" init-method="init">
-		<property name="contentPane">
-			<ref bean="mainPanel" />
-		</property>
-		<property name="title">
-			<value>My To Do List</value>
-		</property>
-	</bean>
+	<!--<bean id="mainFrame" class="todo.ui.MainFrame" init-method="init">-->
+		<!--<property name="contentPane">-->
+			<!--<ref bean="mainPanel" />-->
+		<!--</property>-->
+		<!--<property name="title">-->
+			<!--<value>My To Do List</value>-->
+		<!--</property>-->
+	<!--</bean>-->
 
 
-	<bean id="mainPanel" class="todo.ui.BoxLayoutPanel" init-method="init">
-		<property name="axis">
-			<value>1</value>
-		</property>
-		<property name="panelComponents">
-			<list>
-				<ref bean="itemScrollPane" />
-				<ref bean="buttonPanel" />
-			</list>
-		</property>
-	</bean>
+	<!--<bean id="mainPanel" class="todo.ui.BoxLayoutPanel" init-method="init">-->
+		<!--<property name="axis">-->
+			<!--<value>1</value>-->
+		<!--</property>-->
+		<!--<property name="panelComponents">-->
+			<!--<list>-->
+				<!--<ref bean="itemScrollPane" />-->
+				<!--<ref bean="buttonPanel" />-->
+			<!--</list>-->
+		<!--</property>-->
+	<!--</bean>-->
 
 
 	<bean id="itemScrollPane" class="javax.swing.JScrollPane">

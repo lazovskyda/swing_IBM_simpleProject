@@ -1,13 +1,19 @@
 package todo.ui;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import java.awt.Component;
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import javax.swing.BoxLayout;
-import javax.swing.JPanel;
+import javax.annotation.PostConstruct;
+import javax.swing.*;
+
 
 @Configuration
 public class BoxLayoutPanel extends JPanel {
@@ -18,6 +24,38 @@ public class BoxLayoutPanel extends JPanel {
 	private List panelComponents;
 	private int axis;
 
+
+
+
+	@Autowired
+	private JScrollPane itemScrollPane;
+
+	@Autowired
+	@Qualifier("buttonPanel")
+	private BoxLayoutPanel buttonPanel;
+
+
+
+	@Bean(initMethod = "init")
+	public BoxLayoutPanel mainPanel(){
+		List array1 = new ArrayList();
+		BoxLayoutPanel bean = new BoxLayoutPanel();
+
+		array1.add(itemScrollPane);
+		array1.add(buttonPanel);
+		bean.setAxis(1);
+		bean.setPanelComponents(array1);
+//		bean.init();
+
+		return bean;
+	}
+
+
+
+
+//	@Autowired
+//	@Value("1")
+
 	public void setAxis(int axis) {
 		this.axis = axis;
 	}
@@ -25,6 +63,8 @@ public class BoxLayoutPanel extends JPanel {
 	public void setPanelComponents(List panelComponents) {
 		this.panelComponents = panelComponents;
 	}
+
+
 
 	public void init() {
 
