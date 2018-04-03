@@ -33,11 +33,11 @@
 		<!--</constructor-arg>-->
 	<!--</bean>-->
 
-	<bean id="itemTable" class="javax.swing.JTable">
-		<property name="model">
-			<ref bean="itemTableModel" />
-		</property>
-	</bean>
+	<!--<bean id="itemTable" class="javax.swing.JTable">-->
+		<!--<property name="model">-->
+			<!--<ref bean="itemTableModel" />-->
+		<!--</property>-->
+	<!--</bean>-->
 
 
 	<bean id="itemTableModel" class="todo.ui.ItemTableModel">
