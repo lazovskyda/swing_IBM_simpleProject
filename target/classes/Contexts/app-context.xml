@@ -59,17 +59,17 @@
 
 
 
-	<bean id="buttonPanel" class="todo.ui.BoxLayoutPanel" init-method="init">
-		<property name="axis">
-			<value>0</value>
-		</property>
-		<property name="panelComponents">
-			<list>
-				<ref bean="deleteButton" />
-				<ref bean="addNewButton" />
-			</list>
-		</property>
-	</bean>
+	<!--<bean id="buttonPanel" class="todo.ui.BoxLayoutPanel" init-method="init">-->
+		<!--<property name="axis">-->
+			<!--<value>0</value>-->
+		<!--</property>-->
+		<!--<property name="panelComponents">-->
+			<!--<list>-->
+				<!--<ref bean="deleteButton" />-->
+				<!--<ref bean="addNewButton" />-->
+			<!--</list>-->
+		<!--</property>-->
+	<!--</bean>-->
 
 
 

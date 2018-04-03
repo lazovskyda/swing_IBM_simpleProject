@@ -5,6 +5,9 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Lazy;
+import org.springframework.context.annotation.Scope;
+import todo.ui.button.ActionListenerButton;
 
 import java.awt.Component;
 import java.util.ArrayList;
@@ -16,6 +19,7 @@ import javax.swing.*;
 
 
 @Configuration
+
 public class BoxLayoutPanel extends JPanel {
 	/**
 	 * We can't use "components" as the property name, because it conflicts with
@@ -23,6 +27,30 @@ public class BoxLayoutPanel extends JPanel {
 	 */
 	private List panelComponents;
 	private int axis;
+
+
+	@Autowired
+	@Qualifier("deleteButton")
+	private ActionListenerButton deleteButton;
+
+	@Autowired
+	@Qualifier("addNewButton")
+	private ActionListenerButton addNewButton;
+
+
+	@Bean(initMethod = "init")
+	@Lazy
+//	@Scope(value = "prototype")
+	public BoxLayoutPanel buttonPanel(){
+		List buttons = new ArrayList();
+
+		buttons.add(deleteButton);
+		buttons.add(addNewButton);
+
+		this.setAxis(0);
+		this.setPanelComponents(buttons);
+		return this;
+	}
 
 
 
@@ -37,6 +65,7 @@ public class BoxLayoutPanel extends JPanel {
 
 
 	@Bean(initMethod = "init")
+
 	public BoxLayoutPanel mainPanel(){
 		List array1 = new ArrayList();
 		BoxLayoutPanel bean = new BoxLayoutPanel();
@@ -49,6 +78,9 @@ public class BoxLayoutPanel extends JPanel {
 
 		return bean;
 	}
+
+
+
 
 
 
