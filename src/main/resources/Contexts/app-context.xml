@@ -76,15 +76,15 @@
 
 
 
-	<bean id="deleteButton" class="todo.ui.button.ActionListenerButton"
-		init-method="init">
-		<property name="actionListener">
-			<ref bean="deleteButtonActionListener" />
-		</property>
-		<property name="text">
-			<value>Delete</value>
-		</property>
-	</bean>
+	<!--<bean id="deleteButton" class="todo.ui.button.ActionListenerButton"-->
+		<!--init-method="init">-->
+		<!--<property name="actionListener">-->
+			<!--<ref bean="deleteButtonActionListener" />-->
+		<!--</property>-->
+		<!--<property name="text">-->
+			<!--<value>Delete</value>-->
+		<!--</property>-->
+	<!--</bean>-->
 
 
 	<bean id="deleteButtonActionListener" class="todo.ui.button.DeleteButtonActionListener">
@@ -99,15 +99,15 @@
 
 
 
-	<bean id="addNewButton" class="todo.ui.button.ActionListenerButton"
-		init-method="init">
-		<property name="actionListener">
-			<ref bean="addNewButtonActionListener" />
-		</property>
-		<property name="text">
-			<value>Add New</value>
-		</property>
-	</bean>
+	<!--<bean id="addNewButton" class="todo.ui.button.ActionListenerButton"-->
+		<!--init-method="init">-->
+		<!--<property name="actionListener">-->
+			<!--<ref bean="addNewButtonActionListener" />-->
+		<!--</property>-->
+		<!--<property name="text">-->
+			<!--<value>Add New</value>-->
+		<!--</property>-->
+	<!--</bean>-->
 
 
 	<bean id="addNewButtonActionListener" class="todo.ui.button.AddNewButtonActionListener">

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15c9a75a-e81f-459a-be26-5dcb707b201b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/todo/ui/BoxLayoutPanel.java" afterPath="$PROJECT_DIR$/src/main/java/todo/ui/BoxLayoutPanel.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/todo/ui/button/ActionListenerButton.java" afterPath="$PROJECT_DIR$/src/main/java/todo/ui/button/ActionListenerButton.java" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Contexts/app-context.xml" afterPath="$PROJECT_DIR$/src/main/resources/Contexts/app-context.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/todo/ui/button/ActionListenerButton.class" afterPath="$PROJECT_DIR$/target/classes/todo/ui/button/ActionListenerButton.class" />
     </list>
     <ignored path="$PROJECT_DIR$/eclipseclasses/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,34 +36,37 @@
       <file leaf-file-name="app-context.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/Contexts/app-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+            <state relative-caret-position="455">
+              <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="109" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoxLayoutPanel.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ActionListenerButton.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/todo/ui/button/ActionListenerButton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+              <folding>
+                <element signature="e#1353#1354#0" expanded="true" />
+                <element signature="e#1405#1406#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoxLayoutPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/todo/ui/BoxLayoutPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+            <state relative-caret-position="640">
+              <caret line="70" column="8" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="51" />
               <folding>
                 <element signature="e#1825#1826#0" expanded="true" />
                 <element signature="e#1848#1849#0" expanded="true" />
                 <element signature="e#1905#1906#0" expanded="true" />
                 <element signature="e#1950#1951#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActionListenerButton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/todo/ui/button/ActionListenerButton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -140,20 +145,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bean.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.4.RELEASE/spring-context-5.0.4.RELEASE.jar!/org/springframework/context/annotation/Bean.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1520930787131" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1520930787131" expanded="false" signature="162:470" ph="..." />
-                <marker date="1520930787131" expanded="true" signature="472:578" ph="@{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="all_context.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/Contexts/all_context.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -205,8 +196,10 @@
         <option value="$PROJECT_DIR$/src/main/java/todo/ui/Table.java" />
         <option value="$PROJECT_DIR$/src/main/java/todo/ui/ItemTableModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/todo/ui/ItemList.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Contexts/app-context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/todo/ui/BoxLayoutPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/todo/ui/DeleteButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/todo/ui/button/ActionListenerButton.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Contexts/app-context.xml" />
       </list>
     </option>
   </component>
@@ -297,16 +290,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="todo" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="swing_IBM_simpleProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="swing_IBM_simpleProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="todo" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="button" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="swing_IBM_simpleProject" type="b2602c69:ProjectViewProjectNode" />
@@ -471,7 +454,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20802000" />
+    <option name="totallyTimeSpent" value="21748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1180" extended-state="6" />
@@ -493,7 +476,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2589792" sideWeight="0.7996433" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2589792" sideWeight="0.7996433" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986766" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2782402" sideWeight="0.5080645" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986766" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
@@ -609,7 +592,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/maven.xml" />
     <entry file="file://$PROJECT_DIR$/project.xml" />
     <entry file="file://$PROJECT_DIR$/../download/build.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -951,31 +933,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/todo/ui/button/ActionListenerButton.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/todo/ui/DeleteButton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Contexts/app-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/todo/ui/BoxLayoutPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="640">
+          <caret line="70" column="8" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="51" />
           <folding>
             <element signature="e#1825#1826#0" expanded="true" />
             <element signature="e#1848#1849#0" expanded="true" />
             <element signature="e#1905#1906#0" expanded="true" />
             <element signature="e#1950#1951#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Contexts/app-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="109" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/todo/ui/button/ActionListenerButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+          <folding>
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
           </folding>
         </state>
       </provider>
