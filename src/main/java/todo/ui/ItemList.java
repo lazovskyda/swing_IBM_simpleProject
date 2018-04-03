@@ -1,10 +1,12 @@
 package todo.ui;
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 
 @Component
+
 public class ItemList extends ArrayList {
 
 

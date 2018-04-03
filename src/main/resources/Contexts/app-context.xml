@@ -87,14 +87,14 @@
 	<!--</bean>-->
 
 
-	<bean id="deleteButtonActionListener" class="todo.ui.button.DeleteButtonActionListener">
-		<property name="list">
-			<ref bean="itemList" />
-		</property>
-		<property name="table">
-			<ref bean="itemTable" />
-		</property>
-	</bean>
+	<!--<bean id="deleteButtonActionListener" class="todo.ui.button.DeleteButtonActionListener">-->
+		<!--<property name="list">-->
+			<!--<ref bean="itemList" />-->
+		<!--</property>-->
+		<!--<property name="table">-->
+			<!--<ref bean="itemTable" />-->
+		<!--</property>-->
+	<!--</bean>-->
 
 
 
@@ -110,14 +110,14 @@
 	<!--</bean>-->
 
 
-	<bean id="addNewButtonActionListener" class="todo.ui.button.AddNewButtonActionListener">
-		<property name="list">
-			<ref bean="itemList" />
-		</property>
-		<property name="table">
-			<ref bean="itemTable" />
-		</property>
-	</bean>
+	<!--<bean id="addNewButtonActionListener" class="todo.ui.button.AddNewButtonActionListener">-->
+		<!--<property name="list">-->
+			<!--<ref bean="itemList" />-->
+		<!--</property>-->
+		<!--<property name="table">-->
+			<!--<ref bean="itemTable" />-->
+		<!--</property>-->
+	<!--</bean>-->
 
 
 
