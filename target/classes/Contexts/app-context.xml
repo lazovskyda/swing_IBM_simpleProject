@@ -47,15 +47,15 @@
 	<!--</bean>-->
 
 
-	<bean id="itemList" class="java.util.ArrayList">
-		<constructor-arg>
-			<list>
-				<value>Item 1112222</value>
-				<value>Item 222333</value>
-				<value>Item 133</value>
-			</list>
-		</constructor-arg>
-	</bean>
+	<!--<bean id="itemList" class="java.util.ArrayList">-->
+		<!--<constructor-arg>-->
+			<!--<list>-->
+				<!--<value>Item 1112222</value>-->
+				<!--<value>Item 222333</value>-->
+				<!--<value>Item 133</value>-->
+			<!--</list>-->
+		<!--</constructor-arg>-->
+	<!--</bean>-->
 
 
 
