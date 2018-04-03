@@ -1,11 +1,18 @@
 package todo.ui;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
 import java.util.List;
 
 import javax.swing.table.AbstractTableModel;
 
-public class ItemTableModel extends AbstractTableModel {
 
+@Component
+public class ItemTableModel extends AbstractTableModel {
+	@Autowired
+	@Qualifier("itemList")
 	private List itemList;
 
 	public boolean isCellEditable(int rowIndex, int columnIndex) {

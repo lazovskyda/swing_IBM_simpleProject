@@ -40,11 +40,11 @@
 	<!--</bean>-->
 
 
-	<bean id="itemTableModel" class="todo.ui.ItemTableModel">
-		<property name="itemList">
-			<ref bean="itemList" />
-		</property>
-	</bean>
+	<!--<bean id="itemTableModel" class="todo.ui.ItemTableModel">-->
+		<!--<property name="itemList">-->
+			<!--<ref bean="itemList" />-->
+		<!--</property>-->
+	<!--</bean>-->
 
 
 	<bean id="itemList" class="java.util.ArrayList">
